@@ -3,70 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neel's Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <title>Chandan Steel</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/yourfontawesomekit.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <h1>Neel's Portfolio</h1>
-        <button id="theme-toggle">🌙</button>
+        <h1>Chandan Steel</h1>
         <nav>
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#blog">Blog</a></li>
+                <li><a href="#products">Products</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
-    
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hi, I'm Neel! A DevSecOps and Python Developer passionate about cybersecurity and automation.</p>
-    </section>
-    
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project-card">
-            <h3>Building-an-end-to-end-AWS-devsecops-CI-CD-pipeline-with-SAST-and-DAST-tools</h3>
-            <p>An AWS DevSecOps CI/CD pipeline with SAST and DAST tools automates secure software delivery. Code is committed to a repository, triggering the pipeline. SAST scans the code for vulnerabilities during build. The artifact is deployed, and DAST tools test the running application for security issues. Here's a basic structure for a README file for your DevSecOps End-to-End CI/CD project. This file provides an overview of the project, the tools used, and instructions for setting up and using the project.</p>
-            <a href="https://github.com/yourusername/password-manager">GitHub Repo</a>
-        </div>
-        <div class="project-card">
-            <h3>Medical Chatbot</h3>
-            <p>AI chatbot with NLP for medical diagnosis assistance.</p>
-            <a href="https://github.com/yourusername/medical-chatbot">GitHub Repo</a>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-list">
+            <!-- Repeat this block for each product -->
+            <div class="product-item">
+                <img src="images/kitchen_utensil.jpg" alt="Kitchen Utensil">
+                <h3>Kitchen Utensil</h3>
+                <p>Description of the kitchen utensil.</p>
+                <button>Add to Cart</button>
+            </div>
+            <!-- Add more products as needed -->
         </div>
     </section>
-    
-    <section id="skills">
-        <h2>Skills</h2>
-        <div class="skills-icons">
-            <i class="fab fa-python"></i>
-            <i class="fab fa-aws"></i>
-            <i class="fab fa-docker"></i>
-            <i class="fab fa-linux"></i>
-            <i class="fab fa-github"></i>
+
+    <footer>
+        <div class="social-media">
+            <a href="https://www.facebook.com/yourpage" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/yourprofile" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/yourwhatsappnumber" target="_blank"><i class="fab fa-whatsapp"></i></a>
         </div>
-    </section>
-    
-    <section id="blog">
-        <h2>Blog</h2>
-        <p>Coming soon...</p>
-    </section>
-    
-    <section id="contact">
-        <h2>Contact</h2>
-        <form id="contact-form">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" placeholder="Your Message" required></textarea>
-            <button type="submit">Send</button>
-        </form>
-    </section>
-    
-    <script src="script.js"></script>
+        <p>&copy; 2025 Chandan Steel. All rights reserved.</p>
+    </footer>
+
+    <!-- WhatsApp Chat Widget -->
+    <div class="whatsapp-chat">
+        <a href="https://wa.me/yourwhatsappnumber" target="_blank">
+            <img src="images/whatsapp-icon.png" alt="Chat with us on WhatsApp">
+        </a>
+    </div>
 </body>
 </html>
